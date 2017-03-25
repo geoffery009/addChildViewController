@@ -15,6 +15,12 @@
 		848445371E86122C004AA128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848445351E86122C004AA128 /* LaunchScreen.storyboard */; };
 		848445421E86122C004AA128 /* addChildViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848445411E86122C004AA128 /* addChildViewControllerTests.m */; };
 		8484454D1E86122C004AA128 /* addChildViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484454C1E86122C004AA128 /* addChildViewControllerUITests.m */; };
+		8484455D1E86137D004AA128 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484455B1E86137D004AA128 /* OneViewController.m */; };
+		8484455E1E86137D004AA128 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8484455C1E86137D004AA128 /* OneViewController.xib */; };
+		848445621E86138F004AA128 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848445601E86138F004AA128 /* TwoViewController.m */; };
+		848445631E86138F004AA128 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848445611E86138F004AA128 /* TwoViewController.xib */; };
+		8484456A1E861680004AA128 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848445681E861680004AA128 /* ThreeViewController.m */; };
+		8484456B1E861680004AA128 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848445691E861680004AA128 /* ThreeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		848445481E86122C004AA128 /* addChildViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addChildViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8484454C1E86122C004AA128 /* addChildViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addChildViewControllerUITests.m; sourceTree = "<group>"; };
 		8484454E1E86122C004AA128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8484455A1E86137D004AA128 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		8484455B1E86137D004AA128 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		8484455C1E86137D004AA128 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		8484455F1E86138F004AA128 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		848445601E86138F004AA128 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		848445611E86138F004AA128 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		848445671E861680004AA128 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeViewController.h; path = ../ThreeViewController.h; sourceTree = "<group>"; };
+		848445681E861680004AA128 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeViewController.m; path = ../ThreeViewController.m; sourceTree = "<group>"; };
+		848445691E861680004AA128 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThreeViewController.xib; path = ../ThreeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,15 @@
 				848445351E86122C004AA128 /* LaunchScreen.storyboard */,
 				848445381E86122C004AA128 /* Info.plist */,
 				848445271E86122C004AA128 /* Supporting Files */,
+				8484455A1E86137D004AA128 /* OneViewController.h */,
+				8484455B1E86137D004AA128 /* OneViewController.m */,
+				8484455C1E86137D004AA128 /* OneViewController.xib */,
+				8484455F1E86138F004AA128 /* TwoViewController.h */,
+				848445601E86138F004AA128 /* TwoViewController.m */,
+				848445611E86138F004AA128 /* TwoViewController.xib */,
+				848445671E861680004AA128 /* ThreeViewController.h */,
+				848445681E861680004AA128 /* ThreeViewController.m */,
+				848445691E861680004AA128 /* ThreeViewController.xib */,
 			);
 			path = addChildViewController;
 			sourceTree = "<group>";
@@ -252,6 +276,9 @@
 				848445371E86122C004AA128 /* LaunchScreen.storyboard in Resources */,
 				848445341E86122C004AA128 /* Assets.xcassets in Resources */,
 				848445321E86122C004AA128 /* Main.storyboard in Resources */,
+				848445631E86138F004AA128 /* TwoViewController.xib in Resources */,
+				8484455E1E86137D004AA128 /* OneViewController.xib in Resources */,
+				8484456B1E861680004AA128 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +306,9 @@
 				8484452F1E86122C004AA128 /* ViewController.m in Sources */,
 				8484452C1E86122C004AA128 /* AppDelegate.m in Sources */,
 				848445291E86122C004AA128 /* main.m in Sources */,
+				8484456A1E861680004AA128 /* ThreeViewController.m in Sources */,
+				848445621E86138F004AA128 /* TwoViewController.m in Sources */,
+				8484455D1E86137D004AA128 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
